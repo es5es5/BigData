@@ -33,6 +33,7 @@ public class MBDNMain {
 	public static void main(String[] args) {
 		FileWriter fw = null;
 		try {
+			
 			fw = new FileWriter("C:\\Users\\soldesk\\Desktop\\lhw\\news.txt", true);
 			BufferedWriter bw = new BufferedWriter(fw);
 			

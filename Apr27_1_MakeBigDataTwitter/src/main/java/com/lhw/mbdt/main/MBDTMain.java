@@ -14,7 +14,7 @@ public class MBDTMain {
 	public static void main(String[] args) {
 		FileOutputStream fos = null;
 		try {
-			fos = new FileOutputStream("C:\\Users\\soldesk\\Desktop\\lhw\\BigData\\Apr27_1_MakeBigDataTwitter/twitter.txt", true);
+			fos = new FileOutputStream("/home/lhw/myBigData/gs.txt", true);
 			OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
 			BufferedWriter bw = new BufferedWriter(osw);
 			
